@@ -10,7 +10,8 @@ namespace BotDelive;
 
 abstract class Constants
 {
-    const VerifyUserUrl = 'https://botdelive.com/api/verifyAC';
-    const AuthenticateUrl = 'https://botdelive.com/api/sendAuth';
-    const PushNotificationUrl = 'https://botdelive.com/api/sendPush';
+    const Endpoint = 'https://botdelive.com/api/';
+    const VerifyUserUrl = Endpoint.'verifyAC';
+    const AuthenticateUrl = Endpoint.'sendAuth';
+    const PushNotificationUrl = Endpoint.'sendPush';
 }
