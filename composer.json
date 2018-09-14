@@ -1,0 +1,21 @@
+{
+    "name": "botdelive/botdelive",
+    "description": "BotDelive is a Push Notification and 2-factor authentication API service that works over the chat bots (Telegram and Messenger).",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "botdelive/botdelive": "dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "BotDelive\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Farid Babayev",
+            "email": "farid.b@code.edu.az"
+        }
+    ]
+}
