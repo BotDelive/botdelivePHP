@@ -10,11 +10,10 @@ About
 Requirements
 -------------
 
-1. Create [an account](https://botdelive.com/login).
-2. Visit "Create App" menu on the dashboard and create one.
-3. Keep the secret key of the created app safe and save the app ID.
-4. cURL.
-5. PHP 5.6+
+1. [Create an account](https://botdelive.com/login).
+2. Create an app on the dashboard to get appId and secretKey credentials.
+3. cURL.
+4. PHP 5.6+
 
 Usage
 -------------
@@ -28,7 +27,7 @@ $bd = new BotDelive('<YOUR_APP_ID>', '<YOUR_SECRET_KEY>');
 
 **Verify the "Access Code":**
 ```php
-$bd->verify('<USER_GENERATED_ACCESS_CODE>');
+$bd->verify('<BOT_GENERATED_ACCESS_CODE>');
 ```
 
 **Send 2-factor authentication request (long polling):**
