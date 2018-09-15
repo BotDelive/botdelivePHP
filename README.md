@@ -28,7 +28,7 @@ $bd = new BotDelive('<YOUR_APP_ID>', '<YOUR_SECRET_KEY>');
 
 **Verify the "Access Code":**
 ```php
-$bd->verify('<USER_GENERATED_ACCESS_CODE>'));
+$bd->verify('<USER_GENERATED_ACCESS_CODE>');
 ```
 
 **Send 2-factor authentication request (long polling):**
