@@ -33,7 +33,7 @@ $bd->verify('<USER_GENERATED_ACCESS_CODE>');
 
 **Send 2-factor authentication request (long polling):**
 ```php
-$bd->auth('<USER_ID_HERE>');
+$bd->auth('<USER_ID>');
 ```
 
 **Send Push Notification request:**
