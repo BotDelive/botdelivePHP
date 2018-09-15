@@ -23,22 +23,22 @@ Let's initialize the library first. Don't forget to replace `<YOUR_APP_ID>` and 
 ```php
 use BotDelive\BotDelive;
 
-$bd = new BotDelive(<YOUR_APP_ID>,<YOUR_SECRET_KEY>);
+$bd = new BotDelive('<YOUR_APP_ID>', '<YOUR_SECRET_KEY>');
 ```
 
 **Verify the "Access Code":**
 ```php
-$bd->verify(<USER_GENERATED_ACCESS_CODE_HERE>));
+$bd->verify('<USER_GENERATED_ACCESS_CODE>'));
 ```
 
 **Send 2-factor authentication request (long polling):**
 ```php
-$bd->auth(<USER_ID_HERE>);
+$bd->auth('<USER_ID_HERE>');
 ```
 
 **Send Push Notification request:**
 ```php
-$bd->push('<USER_ID_HERE>', '<MESSAGE_HERE>');
+$bd->push('<USER_ID>', '<MESSAGE>');
 ```
 
 Documentation
